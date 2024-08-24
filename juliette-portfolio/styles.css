@@ -401,23 +401,32 @@ nav ul li.slash{
     height: 80px !important;
 }
 
-#linkedin{
+/* #linkedin{
     width: 100px !important;
     height: 100px !important;
-}
+} */
 
 #duda{
     width: 180px !important;
     height: 80px !important;
 }
 
-#slack{
+/* #slack{
     width: 180px !important;
     height: 50px !important;
-}
+} */
 
 .experience-section .content-wrap .logo-wrap img:hover{
     filter: grayscale(0%);
+}
+
+#v6{
+    width: 150px;
+    height: auto;
+}
+
+#figma{
+    width: 180px;
 }
 
 .black-border-btn{
@@ -542,6 +551,70 @@ nav ul li.slash{
 .certificates-section .certificate-wrap .cert-box .left-col h2{
     color: #fff;
     text-transform: uppercase;
+}
+
+/* MY JOURNEY SECTION - CSS */
+.my-journey{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: -150px;
+    padding-top: 250px;
+    padding-bottom: 60px;
+}
+
+.my-journey .content-wrap{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80vw;
+    gap: 20px;
+}
+
+.my-journey .content-wrap p.description{
+    padding-inline: 200px;
+}
+
+.my-journey .content-wrap .container{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.my-journey .content-wrap .container .left{
+    text-align: left;
+}
+
+.my-journey .content-wrap .container .right img{
+    height: auto;
+    width: 800px;
+}
+
+.container .details{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.container .details ul li ul{
+    padding-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.line-separator{
+    border-top: 1px solid #000;
+    width: 60%;
+    margin-inline: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.container-2{
+    margin-top: 80px;
 }
 
 /* CONTACT SECTION - CSS */
