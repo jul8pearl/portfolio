@@ -1,0 +1,347 @@
+html{
+    overflow-x: hidden;
+}
+
+@media(max-width:1739px) and (min-width:1025px){
+    .hero-section .hero-content{
+        width: 100%;
+    }
+
+    .hero-section .hero-content .left-col .bullet-wrap-text p{
+        font-size: 20px;
+    }
+
+    .hero-section .hero-content .left-col{
+        flex: 70%;
+        margin-left: 100px;
+    }
+
+    .hero-section .hero-content .right-col{
+        flex: auto;
+    }
+
+    .hero-section .hero-content .left-col .bullet-wrap-text{
+        gap: 10px !important;
+    }
+}
+
+@media(max-width:1725px){
+    .contact-section .bg-blob{
+        top: -15%;
+        right: 45%;
+    }
+}
+
+@media(max-width:1573px){
+    .contact-section .bg-blob{
+        top: -10%;
+    }
+}
+
+@media(max-width:1315px){
+    .contact-section .bg-blob{
+        top: 0%;
+    }
+}
+
+@media(max-width:1315px){
+    .contact-section .bg-blob{
+        top: 10%;
+    }
+}
+
+@media(max-width:993px){
+    .contact-section .bg-blob{
+        top: -35%;
+        right: 0%;
+        width: 150vw;
+    }
+}
+
+@media(max-width:939px){
+    .contact-section .bg-blob{
+        top: -30%;
+    }
+}
+
+@media(max-width:873px){
+    .contact-section .bg-blob{
+        top: -25%;
+    }
+}
+
+@media(max-width:809px){
+    .contact-section .bg-blob{
+        top: -22%;
+    }
+
+    .contact-section .content .content-col{
+        margin-inline: 10px !important;
+    }
+}
+
+@media(max-width:781px){
+    .contact-section .bg-blob{
+        top: -22%;
+        right: -7%;
+    }
+}
+
+@media(max-width:723px){
+    .contact-section .bg-blob{
+        top: -10%;
+        right: -20%;
+        width: 180vw;
+    }
+}
+
+@media(max-width:1734px) and (min-width:1497px){
+    .certificates-section .certificate-wrap .cert-box .left-col > h2{
+        font-size: 20px !important;
+    }
+}
+
+@media(max-width:1496px) and (min-width:1379px){
+    .certificates-section .certificate-wrap .cert-box .left-col > h2{
+        font-size: 18px !important;
+    }
+}
+
+@media(max-width:1600px){
+    #r-content-l-img.container{
+        flex-direction: column-reverse;
+    }
+
+    #l-content-r-img.container{
+        flex-direction: column-reverse;
+    }
+
+    .my-journey .content-wrap .container .left{
+        width: 90%;
+    }
+}
+
+@media(max-width:1440px){
+    .my-journey .content-wrap p.description{
+        padding-inline: 100px;
+    }
+
+    .container-2 .container-2-p{
+        padding-inline: 20px !important;
+    }
+
+    .contact-box{
+        width: 60vw;
+    }
+}
+
+@media(max-width:1378px){
+    .certificates-section .certificate-wrap{
+        flex-direction: column;
+        padding-inline: 100px;
+    }
+}
+
+@media(max-width:1200px){
+    .contact-section{
+        padding-inline: 20px;
+    }
+
+    .contact-section .content .content-col .contact-details ul{
+        width: 80%;
+    }
+}
+
+@media(max-width:1024px){
+    .hero-section .hero-content{
+        flex-direction: column-reverse;
+    }
+
+    .hero-section .hero-content .left-col > h2{
+        margin-top: 60px;
+    }
+
+    .hero-section .hero-content .left-col .bullet-wrap-text{
+        gap: 10px !important;
+    }
+
+    .experience-section .content-wrap .logo-wrap{
+            max-height: 300px;
+            overflow-y: scroll;
+    }
+
+    .my-journey .content-wrap p.description{
+        padding-inline: 30px;
+    }
+
+    .my-journey .content-wrap .container .right img{
+        width: 100%;
+    }
+}
+
+@media(max-width:993px){
+    header .hamburger-icon{
+        display: block !important;
+    }
+  
+    header .main-menu{
+        display: none;
+    }
+
+    header .hamburger-icon i{
+        font-size: 25px;
+    }
+
+    header .hamburger-menu nav ul li a::after{
+        display: none;
+    }
+
+    .container-2 .container-2-p{
+        padding-inline: 0px !important;
+    }
+
+    .info-box-wrap > .info-box{
+        flex: 0 0 80%;
+        margin-top: 20px;
+    }
+
+    .contact-box{
+        width: 80vw;
+    }
+
+    .contact-section .content{
+        flex-direction: column;
+    }
+
+    .contact-section .content .content-col{
+        margin-bottom: 80px;
+    }
+
+    .contact-section .content .content-col .contact-details ul{
+        margin-inline: auto;
+    }
+
+    .contact-section .content .form-col{
+        padding-inline: 40px;
+    }
+}
+
+@media(max-width:893px){
+    .certificates-section .certificate-wrap .cert-box .left-col > h2{
+        font-size: 18px !important;
+    }
+}
+
+@media(max-width:768px){
+    .material-symbols-outlined{
+        font-size: 20px;
+    }
+
+    .hero-section .hero-content .left-col .bullet-wrap-text{
+        flex-wrap: wrap;          
+    }
+
+    .experience-section .content-wrap .logo-wrap img{
+        width: 250px;
+        height: auto;
+    }
+
+    .experience-section .content-wrap .logo-wrap{
+        justify-content: center;
+    }
+
+    .certificates-section .certificate-wrap{
+        padding-inline: 50px;
+    }
+
+    .my-journey .content-wrap p.description{
+        padding-inline: 20px;
+    }
+
+    .my-journey .content-wrap .container .left{
+        width: 95%;
+    }
+
+    .info-box-wrap > .info-box img{
+        height: 300px !important;
+    }
+}
+
+@media(max-width: 560px){
+    header img{
+        display: none;
+    }
+
+    header div.hamburger-menu.active{
+        top: 70px !important;
+    }
+
+    .hamburger-menu nav ul li{
+        text-align: left !important;
+    }
+
+    .experience-section .content-wrap .logo-wrap img{
+        width: 200px;
+        height: auto;
+    }
+
+    .certificates-section .certificate-wrap{
+        padding-inline: 20px !important;
+    }
+
+    .certificates-section .certificate-wrap .cert-box .left-col > h2{
+        font-size: 15px !important;
+    }
+
+    .info-box-wrap > .info-box{
+        flex: 0 0 100%;
+    }
+
+    .info-box-wrap > .info-box img{
+        height: 400px;
+    }
+
+    .contact-box{
+        width: 90vw;
+    }
+
+    .contact-box p{
+        padding-inline: 20px;
+    }
+
+    .contact-section .content .form-col h2{
+        font-size: 32px;
+    }
+
+    .contact-section .content .form-col h2, .contact-section .content .form-col p{
+        text-align: left !important;
+    }
+}
+
+@media(max-width:425px){
+    .hero-section .hero-content .right-col img{
+        width: 250px;
+    }
+
+    .details ul li h2{
+        font-size: 15px;
+    }
+
+    .details ul li h2 ul li{
+        font-size: 13px;
+    }
+
+    .contact-section .content .content-col .contact-details ul li{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:414px){
+    .contact-section .content .content-col h2{
+        font-size: 40px;
+    }
+
+    .contact-section .content .content-col p{
+        font-size: 15px;
+    }
+}
