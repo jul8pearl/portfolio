@@ -18,6 +18,26 @@ body{
     position: relative;
 }
 
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #a4d0ff;
+}
+
 /* OUTSOURCED CSS */
 
 /* SOCIAL ICONS */
@@ -134,7 +154,9 @@ header{
 }
 
 header img{
-    width: 200px;
+    /* width: 200px; */
+    margin: 15px 0px;
+    width: 150px;
     height: auto;
 }
 
@@ -572,7 +594,7 @@ nav ul li.slash{
 }
 
 .my-journey .content-wrap p.description{
-    padding-inline: 200px;
+    padding-inline: 190px;
 }
 
 .my-journey .content-wrap .container{
@@ -617,6 +639,63 @@ nav ul li.slash{
     margin-top: 80px;
 }
 
+#r-content-l-img.container{
+    flex-direction: row-reverse;
+}
+
+.info-box-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;;
+}
+
+.info-box-wrap > .info-box{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.info-box-wrap > .info-box:hover{
+    transform: scale(1.05);
+}
+
+.info-box-wrap > .info-box h2{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info-box-wrap > .info-box .button-link{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+}
+
+.info-box-wrap > .info-box .button-link a{
+    color: #000;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.info-box-wrap > .info-box .button-link:hover{
+    transform: scale(1.05);
+}
+
+.info-box-wrap > .info-box .button-link a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.info-box-wrap > .info-box img{
+    object-fit: cover;
+    width: 400px;
+    height: 500px;
+}
+
 /* CONTACT SECTION - CSS */
 .contact-section{
     padding: 120px;
@@ -630,9 +709,30 @@ nav ul li.slash{
     top: -20%;
     right: 50%;
     width: 80%;
-    /* width: 40%;
-    bottom: 30%;
-    right: 70%; */
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 40vw;
+    margin-inline: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-box img{
+    width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.contact-box p{
+    padding-inline: 70px;
 }
 
 .contact-section .content{
@@ -661,7 +761,7 @@ nav ul li.slash{
     margin-top: 30px;
     background-color: #fff;
     padding: 30px;
-    width: 50%;
+    width: 73%;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
