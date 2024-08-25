@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="hamburger-menu.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -24,23 +26,36 @@
 <body>
 
     <header>
-        <img src="/images/Juliette-removebg-preview.png" alt="">
+        <img src="/images/Juliette-removebg-preview - Cropped.png" alt="">
     
-        <nav>
+        <nav class="main-menu">
             <ul>
               <li><a href="/#home">Home</a></li>
               <li class="slash">/</li>
               <li><a href="/#about">About</a></li>
               <li class="slash">/</li>
-              <li><a href="/#portfolio">Portfolio</a></li>
+              <li><a href="/#journey">Portfolio</a></li>
               <li class="slash">/</li>
               <li><a href="/#contact">Contact</a></li>
             </ul>
         </nav>
+
+        <div class="hamburger-icon"><i class="fa-solid fa-bars"></i></div>
+
+        <div class="hamburger-menu">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#journey">Portfolio</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         
         <div class="header-btn-wrap">
             <div class="header-btn">
-                <a target="_blank" href="/images/jolyet.jpg" style="color: #000;" href="#">Hire Me</a>
+                <a target="_blank" href="/documents/Resume - Updated.pdf" style="color: #000;" href="#">Hire Me</a>
             </div>
         </div>
     </header>
@@ -71,7 +86,7 @@
                     <p style="font-size: 18px; margin-top: 10px">As an experienced Digital Marketer, I am seeking a challenging role where I can leverage my skills to drive impactful results. Over the past two years, I have advanced from SEM Support to SEM Specialist and ultimately to Team Leader, demonstrating my deep expertise, strategic vision, and ability to lead teams effectively. I am committed to contributing my knowledge to a professional environment that values innovation, growth, and results-driven collaboration.</p>
 
                     <div id="hero-btn" class="button-1-white-border">
-                        <a target="_blank" href="/documents/RESUME - Juliette.pdf">RESUME</a>
+                        <a target="_blank" href="/documents/Resume - Updated.pdf">RESUME</a>
                     </div>
                 </div>
     
@@ -173,7 +188,7 @@
             </div>
         </section>
 
-        <section id="portfolio" class="certificates-section">
+        <section class="certificates-section">
             <!-- <div class="overlay"></div> -->
             <div class="page-content">
                 <h2 style="text-align: center; font-size: 38px; color: #fff;">My Certificates</h2>
@@ -235,11 +250,127 @@
             </div>
         </section>
 
-        <section class="my-journey">
+        <section id="journey" class="my-journey">
             <div class="content-wrap">
-                <h2 style="font-size: 38px;">My Journey</h2>
-                <p class="description">My digital marketing journey began in 2022, right after graduating from college. In my role as an SEM Support, I managed Google Ads accounts across various industries, gaining valuable experience in crafting and optimizing tailored campaigns. <br> Below are examples of some successful campaigns I’ve worked on.</p>
 
+                <h2 style="font-size: 38px;">My Journey</h2>
+                <p class="description">As a SEM Support, I had the opportunity to dive into the dynamic world of digital marketing. One of my key responsibilities was managing multiple Google Ads accounts, each one unique and tied to different industries. It was a journey of learning and adapting, as I crafted campaigns tailored to each client’s needs. Below are some of the campaigns I’ve had the pleasure of guiding to success.</p>
+
+
+                <!-- CUSTOM PACKAGING -->
+                <div id="r-content-l-img" class="container">
+                    <div class="left">
+                         <h2 style="font-size: 30px; margin-bottom: 10px;">SEM Support</h2>
+
+                         <div class="details" style="margin-top: 50px;">
+                             <ul style="list-style: none;">
+                                 <li><h2>Industry:</h2> <ul><li>Custom Packaging</li></ul></li>
+                                 <li><h2>Campaign Type:</h2> <ul><li>Search Campaign</li></ul></li>
+                                 <li><h2>Products/Services: </h2>
+                                     <ul>
+                                         <li>Custom bags</li>
+                                         <li>Tags</li>
+                                         <li>Promotional products</li>
+                                         <li>Eco-friendly solutions with premium printing services for personalized branding.</li>
+                                     </ul>
+                                 </li>
+                                 <li><h2>Conversions: </h2>
+                                    <ul>
+                                        <li>Click-to-Email</li>
+                                        <li>Call from ads</li>
+                                        <li>Lead form submissions</li>
+                                    </ul>
+                                </li>
+                             </ul>
+                         </div>
+                    </div>
+ 
+                    <div class="right">
+                         <div>
+                             <h2 style="font-size: 30px; margin-bottom: 15px;">August – July 2023</h2>
+                             <img src="/images/Final_-_Bags_and_Tags.png" alt="">
+                         </div>
+                    </div>
+                 </div>
+
+                 <!-- END OF CUSTOM PACKAGING -->
+
+
+                 <!-- PUMP MANUFACTURING -->
+
+                 <div id="l-content-r-img" class="container">
+                    <div class="left">
+                         <h2 style="font-size: 30px; margin-bottom: 10px;">SEM Support</h2>
+
+                         <div class="details" style="margin-top: 50px;">
+                             <ul style="list-style: none;">
+                                 <li><h2>Industry:</h2> <ul><li>Pump Manufacturing and Services</li></ul></li>
+                                 <li><h2>Campaign Type:</h2> <ul><li>Search/Display Campaign</li></ul></li>
+                                 <li><h2>Products/Services: </h2>
+                                     <ul>
+                                         <li>Industrial pumps</li>
+                                         <li>Maintenance services</li>
+                                         <li>Custom pumping solutions tailored to various industries</li>
+                                     </ul>
+                                 </li>
+                                 <li><h2>Conversions: </h2>
+                                    <ul>
+                                        <li>Click-to-Email</li>
+                                        <li>Call from ads</li>
+                                        <li>Lead form submissions</li>
+                                    </ul>
+                                </li>
+                             </ul>
+                         </div>
+                    </div>
+ 
+                    <div class="right">
+                         <div>
+                             <h2 style="font-size: 30px; margin-bottom: 15px;">August – July 2023</h2>
+                             <img src="/images/Final_Callaghan.png" alt="">
+                         </div>
+                    </div>
+                 </div>
+
+                 <!-- END OF PUMP MANUFACTURING -->
+
+                 <!-- FITNESS -->
+                 <div id="r-content-l-img" class="container">
+                    <div class="left">
+                         <h2 style="font-size: 30px; margin-bottom: 10px;">SEM Support</h2>
+
+                         <div class="details" style="margin-top: 50px;">
+                             <ul style="list-style: none;">
+                                 <li><h2>Industry:</h2> <ul><li>Fitness Equipment and Solutions</li></ul></li>
+                                 <li><h2>Campaign Type:</h2> <ul><li>Search Campaign</li></ul></li>
+                                 <li><h2>Products/Services: </h2>
+                                     <ul>
+                                         <li>Commercial and home fitness equipment</li>
+                                         <li>Installation services</li>
+                                         <li>Tailored fitness solutions</li>
+                                     </ul>
+                                 </li>
+                                 <li><h2>Conversions: </h2>
+                                    <ul>
+                                        <li>Click-to-Email</li>
+                                        <li>Call from ads</li>
+                                        <li>Lead form submissions</li>
+                                    </ul>
+                                </li>
+                             </ul>
+                         </div>
+                    </div>
+ 
+                    <div class="right">
+                         <div>
+                             <h2 style="font-size: 30px; margin-bottom: 15px;">August – July 2023</h2>
+                             <img src="/images/Final_Fitness.png" alt="">
+                         </div>
+                    </div>
+                 </div>
+                 <!-- END OF FITNESS -->
+
+                 <!-- CJM LAWYERS -->
                 <div id="l-content-r-img" class="container">
                    <div class="left">
                         <h2 style="font-size: 30px; margin-bottom: 10px;">SEM Specialist - CJM Lawyers</h2>
@@ -263,28 +394,78 @@
 
                    <div class="right">
                         <div>
-                            <h2 style="font-size: 30px; margin-bottom: 15px;">Results for the First Month</h2>
-                            <img src="/images/1st_Month_result.png" alt="">
+                            <h2 style="font-size: 30px; margin-bottom: 15px;">August – July 2023</h2>
+                            <img src="/images/Whole_duration.png" alt="">
                         </div>
-                        
-                        <div class="line-separator"></div>
-
-                        <div>
-                            <h2 style="font-size: 30px; margin-bottom: 15px;">Annual Results</h2>
-                            <img src="/images/One_year_result.png" alt="">
-                        </div>
-                        
                    </div>
                 </div>
 
                 <div class="container-2">
-                    <h2 style="font-size: 30px; margin-bottom: 15px;">Team Lead - CJM  Lawyers</h2>
-                    <p style="padding-inline: 180px;">As the Team Leader for CJM Lawyers, I focused on driving marketing initiatives that enhanced brand awareness, generated qualified leads, and strengthened the firm’s online presence. Leading a dedicated team that managed Facebook Ads, Google Ads, SEO, Web Development, Email Marketing, and Social Posting, I ensured our efforts aligned with CJM Lawyers' broader business objectives. As the sole point of contact for the client, I coordinated closely with my team to execute strategies that supported the firm’s growth and success.</p>
+                    <h2 class="container-2-h2" style="font-size: 30px; margin-bottom: 15px;">Team Lead - CJM  Lawyers</h2>
+                    <p class="container-2-p" style="padding-inline: 180px;">As the Team Leader for CJM Lawyers, I focused on driving marketing initiatives that enhanced brand awareness, generated qualified leads, and strengthened the firm’s online presence. Leading a dedicated team that managed Facebook Ads, Google Ads, SEO, Web Development, Email Marketing, and Social Posting, I ensured our efforts aligned with CJM Lawyers' broader business objectives. As the sole point of contact for the client, I coordinated closely with my team to execute strategies that supported the firm’s growth and success.</p>
                     <br>
-                    <p style="padding-inline: 180px;">I consistently stay updated on the latest digital marketing trends, especially in Google Ads. This dedication ensures that my strategies are aligned with the most current developments and best practices. By staying informed about emerging trends and changes in Google Ads, I can refine my approach to achieve optimal performance and deliver outstanding results.</p>
+                    <p>Here are some examples of the diverse marketing projects my team and I have successfully executed:</p>
+
+                    <div style="margin-top: 60px; gap: 30px;" class="info-box-wrap">
+                        <div class="info-box">
+                            <img src="/images/edm-cover.PNG" alt="">
+                            <h2>Email Marketing - Newsletter</h2>
+                            <div class="button-link">
+                               <a target="_blank" href="/documents/EDM.pdf">View</a> 
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <img src="/images/Flyer-cover.PNG" alt="">
+                            <h2>Flyer</h2>
+                            <div class="button-link">
+                               <a target="_blank" href="/documents/Flyer.pdf">View</a> 
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <img src="/images/Facebook_Ads_Sample.png" alt="">
+                            <h2>Facebook Ads</h2>
+                            <div class="button-link">
+                               <a target="_blank" href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AU&media_type=all&q=cjm%20lawyers&search_type=keyword_unordered">View</a> 
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <img src="/images/456395089_1210769343530873_3517681566194661924_n.jpg" alt="">
+                            <h2> Facebook and Instagram Posting </h2>
+                            <div class="button-link">
+                               <a target="_blank" href="https://www.facebook.com/CroninJamesMcLaughlin/">View</a> 
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <img src="/images/linkedinpostingcover.png" alt="">
+                            <h2>SEO</h2>
+                            <div class="button-link">
+                               <a target="_blank" href="https://www.linkedin.com/company/cjmlawyers/">View</a> 
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <img src="/images/SEO.png" alt="">
+                            <h2>SEO</h2>
+                            <div class="button-link">
+                               <a target="_blank" href="/images/SEO.png">View</a> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- END OF CJM LAWYERS -->
         </section>
+
+        <div class="contact-box-wrap" style="background-color: #A4D0FF; padding-top: 50px; padding-bottom: 50px; margin-top: 30px;">
+            <div class="contact-box">
+                <img src="/images/Juliette-removebg-preview - Cropped.png" alt="">
+                <p>I consistently stay updated on the latest digital marketing trends, especially in Google Ads. This dedication ensures that my strategies are aligned with the most current developments and best practices. By staying informed about emerging trends and changes in Google Ads, I can refine my approach to achieve optimal performance and deliver outstanding results.</p>
+            </div>
+        </div>
 
         <section id="contact" class="contact-section">
             <img class="bg-blob" src="/images/blob-2.svg" alt="">
@@ -302,7 +483,7 @@
                 </div>
                 <div class="form-col">
                     <h2>Get in Touch</h2>
-                    <p style="margin-top: 10px; margin-bottom: 10px;">I look forward to the opportunity to collaborate with you.</p>
+                    <p style="margin-top: 10px; margin-bottom: 10px; text-align: center;">I look forward to the opportunity to collaborate with you.</p>
                     <form action="https://formspree.io/f/mqazdqvl" method="POST">
                         <label for="name">Name</label><br>
                         <input type="text" id="name" name="name" required><br>
@@ -320,7 +501,7 @@
         </section>
 
     </main>
-
+    <script src="hamburger-menu.js"></script>
 </body>
 
 </html>
